@@ -1,0 +1,23 @@
+{
+  "name": "reason-meetup-code",
+  "version": "0.1.0",
+  "description": "Example code for Got.Lambda Reason meetup",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reason-js": "0.3.0",
+    "reason-react": "https://github.com/reasonml/reason-react.git"
+  },
+  "devDependencies": {
+    "bs-platform": "git+https://github.com/bloomberg/bucklescript.git",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "build": "webpack -w",
+    "clean": "bsb -clean-world"
+  },
+  "author": "",
+  "license": "ISC"
+}
