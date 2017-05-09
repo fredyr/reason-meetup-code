@@ -44,3 +44,10 @@ let myFun ::x ::y => String.sub "Other stuff, man" x y;
 let arr = [|5.0, 63.0, 18.0|];
 
 let incer x :float => x +. 20.;
+
+let y = {
+  let x = "interpolated";
+  {j|a very
+         this one is multi-lined yeahhh!
+         weird $(x) string|j}
+};
